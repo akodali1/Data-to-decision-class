@@ -1,4 +1,4 @@
-# Data-to-decision-class
+## From Data to decisions
 
 
 [copy right](https://github.com/akodali1/Data-to-decision-class/blob/main/LICENSE)
