@@ -6,8 +6,11 @@
 ![UNO](https://images.app.goo.gl/S1KNsRpzvTcuRLd47)
 
 <br>
+
 ### [Data Entry Analysis](https://www.unomaha.edu/)
+
 <br>
+
 ### [Data Exploration](https://www.unomaha.edu/)
 
 <br>
