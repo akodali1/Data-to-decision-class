@@ -1,6 +1,6 @@
 ## From Data to decisions
 
-![Welcome](https://images.app.goo.gl/S1KNsRpzvTcuRLd47)
+![UNO](https://images.app.goo.gl/S1KNsRpzvTcuRLd47)
 
 
 ### [Data Entry Analysis](https://www.unomaha.edu/)
