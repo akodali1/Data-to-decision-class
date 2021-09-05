@@ -8,6 +8,8 @@
 <br>
 
 ### [Data Entry Analysis](https://www.unomaha.edu/)
+<br>
+
 #### 1 
 <br>
 
@@ -15,6 +17,7 @@
 <br><br>
 
 ### [Data Exploration](https://www.unomaha.edu/)
+<br>
 
 #### 1 
 <br>
