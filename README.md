@@ -7,4 +7,4 @@
 
 [Data Exploration](my.unomaha.edu)
 
-
+![Welcome](http://url/to/img.png)
