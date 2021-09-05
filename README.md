@@ -12,10 +12,12 @@
 <br>
 #### 2 
 <br><br>
+
 ### [Data Exploration](https://www.unomaha.edu/)
 
 #### 1 
 <br>
+
 #### 2 
 <br>
 <br>
