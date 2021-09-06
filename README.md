@@ -1,6 +1,6 @@
 ## From Data to decisions
 
-#### Hi folks, I am Akhil Kodali. Currently a graduate student in University of Nebraska at Omaha working on data science projects.
+> #### Hi folks, I am Akhil Kodali. Currently a graduate student in University of Nebraska at Omaha working on data science projects.
 
 <br><br>
 
