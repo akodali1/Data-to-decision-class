@@ -39,4 +39,4 @@
 
 
 
-##### [Copy right](https://github.com/akodali1/Data-to-decision-class/blob/main/LICENSE)
+##### Licensed by Boost Software  [Copy right](https://github.com/akodali1/Data-to-decision-class/blob/main/LICENSE)
