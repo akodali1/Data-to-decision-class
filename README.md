@@ -39,4 +39,4 @@
 
 
 
-##### [License](https://github.com/akodali1/Data-to-decision-class/blob/main/LICENSE)
+##### [Copy right](https://github.com/akodali1/Data-to-decision-class/blob/main/LICENSE)
