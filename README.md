@@ -18,11 +18,11 @@
 
 
 
-### * [Data Entry Analysis](https://www.unomaha.edu/)
+* ### [Data Entry Analysis](https://www.unomaha.edu/)
 
 
 
-### * [Data Exploration](https://www.unomaha.edu/)
+* ### [Data Exploration](https://www.unomaha.edu/)
 
 <br>
 
