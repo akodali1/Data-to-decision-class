@@ -16,15 +16,15 @@
 
 ## Projects
 
-<br>
+
 
 ### [Data Entry Analysis](https://www.unomaha.edu/)
-<br>
+
 
 
 ### [Data Exploration](https://www.unomaha.edu/)
-<br>
 
+<br>
 
 <br>
 <br>
