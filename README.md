@@ -1,4 +1,4 @@
-## From Data to decisions
+## From data to decisions
 <br>
 
 ### Introduction
