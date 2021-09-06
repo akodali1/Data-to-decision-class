@@ -11,7 +11,9 @@
 
 
 <br>
+
 ## Projects
+
 <br>
 
 ### [Data Entry Analysis](https://www.unomaha.edu/)
