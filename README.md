@@ -4,7 +4,9 @@
 
 <br><br>
 
-![uno-icon](https://user-images.githubusercontent.com/89871722/132144234-51adf16c-46a2-43c8-8980-028fb745b144.jpg) { width=50% }
+
+
+<img src="https://user-images.githubusercontent.com/89871722/132144234-51adf16c-46a2-43c8-8980-028fb745b144.jpg" alt="UNO-icon" width="200"/>
 
 
 <br>
