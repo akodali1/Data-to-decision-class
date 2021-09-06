@@ -3,7 +3,7 @@
 #### Hi folks, I am Akhil Kodali. Currently a graduate student in University of Nebraska at Omaha working on data science projects.
 
 <br><br>
-![uno-icon](https://user-images.githubusercontent.com/89871722/132144234-51adf16c-46a2-43c8-8980-028fb745b144.jpg)
+![uno-icon](https://user-images.githubusercontent.com/89871722/132144234-51adf16c-46a2-43c8-8980-028fb745b144.jpg){width=50%}
 
 
 <br>
