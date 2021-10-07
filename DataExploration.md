@@ -308,7 +308,7 @@
     s2
 
 ![](DataExploration_files/figure-markdown_strict/unnamed-chunk-3-1.png)
-\#\#\#\#\#\# Observations :
+###### Observations :
 
 -   The above scatter plot is between Age and Program Name.
 -   From the above data we can see that the program Mental health is
