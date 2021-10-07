@@ -329,7 +329,7 @@
     ggplot(serdat, aes(x =age , y =program_name , color= program_name))+ geom_point(size = 1) +
     facet_wrap(~state)+labs(x="Age", y="Program Name", title = "Bar plot based on Age and program description")
 
-![](DataExploration_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/DataExplorationPlots/Faceted%20Plot.png)
 
 ###### Observations :
 
