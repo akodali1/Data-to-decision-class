@@ -291,7 +291,7 @@
     ggplot(serdat, aes(x =recordID , y =submitted,color = submitted)) + geom_point(size=0.1)+
     labs(x="RecordID", y="Application Status", title = "Scatter plot based on RecordID and Application Status")
 
-![](DataExploration_files/figure-markdown_strict/unnamed-chunk-2-1.png)
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/DataExplorationPlots/Scatter%20Plot%201A.png)
 
 ###### Observations :
 
@@ -307,7 +307,7 @@
       labs(x="Age", y="Program Name", title = "Scatter plot based on Age and program description")
     s2
 
-![](DataExploration_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/DataExplorationPlots/Scatter%20Plot%201B.png)
 
 ###### Observations :
 
