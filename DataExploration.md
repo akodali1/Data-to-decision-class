@@ -308,6 +308,7 @@
     s2
 
 ![](DataExploration_files/figure-markdown_strict/unnamed-chunk-3-1.png)
+
 ###### Observations :
 
 -   The above scatter plot is between Age and Program Name.
