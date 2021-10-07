@@ -18,7 +18,7 @@
 
 
 
-* ### [Data Exploration](https://www.unomaha.edu/)
+* ### [Data Exploration](https://github.com/akodali1/Data-to-decision-class/blob/main/DataExploration.md)
 
 
 
