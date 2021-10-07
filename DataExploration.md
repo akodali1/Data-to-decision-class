@@ -353,7 +353,7 @@
 
     ## Warning: Ignoring unknown parameters: Width
 
-![](DataExplorationPlots/Bar Plot.png)
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/DataExplorationPlots/Bar%20Plot.png)
 
 ###### Observations :
 
