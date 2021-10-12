@@ -1,0 +1,87 @@
+---
+title: "DATA EXPLORATION ON HFS SERVICE DATA"
+author: Akhil Kodali
+date: October 7, 2021
+output: md_document
+---
+<br>
+
+### Reading the HFS Service Data and obtaining the head of it.
+
+``` {r}
+library(ggplot2)
+serdat <- read.csv("HFS Service Data.csv")
+head(serdat,20)
+```
+
+<br>
+
+### 1 Two Scatter plots of two different variables, properly labelled
+
+##### a) Scatter plot of RecordID vs Application Status
+
+``` {r}
+ggplot(serdat, aes(x =recordID , y =submitted,color = submitted)) + geom_point(size=0.1)+
+labs(x="RecordID", y="Application Status", title = "Scatter plot based on RecordID and Application Status")
+
+```
+
+###### Observations : 
+
+* From the above Scatter plot we can see the status of submitted and Approved applications for different record ids. 
+* Apart from those two, we also have another coloumn for 'Blank' status. This is where data cleaning is required. We 
+  can clean the data based on the columns duration and actual_date.
+
+
+##### b) Scatter plot of Age vs Program 
+
+```{r}
+s2 <- ggplot(serdat, aes(x =age , y =program_name,color = program_name)) + geom_point(size=1)+
+  labs(x="Age", y="Program Name", title = "Scatter plot based on Age and program description")
+s2
+```
+###### Observations : 
+
+* The above scatter plot is between Age and Program Name.
+* From the above data we can see that the program Mental health is having people of all ages enrolled in it.
+* For the substance use we can see that the most people of age above 21 are enrolling in it, the interesting point here is
+there are people of age below 21 involving in substance use which is illegal in USA.
+* For gambling, people of age around 30 and 50 are enrolling.
+
+<br>
+
+### 2 One faceted plot of two variables, properly labelled
+
+##### Plot of Age and Mental Health, faceted by State
+
+```{r}
+ggplot(serdat, aes(x =age , y =program_name , color= program_name))+ geom_point(size = 1) +
+facet_wrap(~state)+labs(x="Age", y="Program Name", title = "Bar plot based on Age and program description")
+```
+
+###### Observations : 
+
+* The above plot is between Age and Program Name which is same as 1b but faceted by State.
+* From this plot we can observe that the people from states SC, CO and NC are involving only in Mental health programs.
+* The patients in NE of age below 21 are more than in IA.
+* Among all the three programs, gambling service is being used less in all the states.
+
+<br>
+
+### 3 One bar chart, properly labeled
+
+##### Bar chart of Count of patients w.r.t States
+
+
+```{r}
+serdat$state <- factor(serdat$state, levels=c("IA", "NE", "SC", "CO", "NC"))
+ggplot(serdat, aes(x=state))+ geom_bar(Width = 1)+
+labs(x="State", y="Count of Patients", title = 'Bar chart of Count of patients w.r.t States')
+```
+
+
+###### Observations : 
+
+* The above graph is between state and count of patients. In this, we can see the number of people enrolling state wise.
+* In this graph, we can see the states having patients of high count on the left and of low count on the right.
+* The order of enrollments based on state is as follows : IA, NE, SC Co, NC (high to low).
