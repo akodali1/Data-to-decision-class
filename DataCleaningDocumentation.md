@@ -1,6 +1,6 @@
 ---
 title: "Data Cleaning Documentation"
-author: "Heather S. Davis"
+author: "Heather S. Davis, Akhil Kodali, and Scott Bui"
 date: "October 24, 2021"
 output:
   html_document:
@@ -51,7 +51,7 @@ The source we had for Metadata was the SLA Data Columns document described in th
 
 * simple_race - We removed the rows in the data that did not correlate with the values provided in the SLA Data Columns document.We also replaced the numeric codes for race with their label values to make them easier to understand. For example, the value 2 was replaced with Alaskan Native. 
 
-* gender_identity - We changed the value of female to woman to correspond to the value of man because male was not used for individuals who identified themselves as men. 
+* gender_identity - We changed the value of female to woman to correspond to the value of man because male was not used for individuals who identified themselves as men. We also changed the value to Not Obtained to NA since we felt they were very similar. 
 
 
 # Code
@@ -112,6 +112,13 @@ HFS_Data$simple_race[HFS_Data$simple_race ==0 ] <- "Unknown or Not Collected"
 HFS_Data$gender_identity[HFS_Data$gender_identity == "Female"] <- "Woman"
 ```
  
+# To modify the values containing "NA" in data to "Not Obtained"
+# PS: We have NA in only "gender_identity" column
+
+```{r gender_identity Not Obtained to NA}
+HFS_Data[is.na(HFS_Data)] <- "NA"
+```
+
 
 ## To verify data has modified according to our needs
 
@@ -125,7 +132,7 @@ unique(HFS_Data$is_approved)
 ## To view the modified data
 
 ```{r view}
-View(HFS_Data)
+str(HFS_Data)
 ```
 
 # Contributor Statement
