@@ -1,4 +1,4 @@
-Worst Plot Contest
+Worst Plots Contest
 ================
 
 
