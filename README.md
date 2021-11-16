@@ -22,7 +22,7 @@
 
 
 
-* ### [Worst Plot Contest](https://github.com/akodali1/Data-to-decision-class/blob/main/WorstPlotsContest.md)
+* ### [Worst Plots Contest](https://github.com/akodali1/Data-to-decision-class/blob/main/WorstPlotsContest.md)
 
 <br>
 
