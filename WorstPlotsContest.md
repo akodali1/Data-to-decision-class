@@ -75,7 +75,7 @@ donut <- ggplot(data = worst1, aes(x=2, y = Freq, fill = Var1))+
 donut
 ```
 
-![](WorstPlotsContest_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/WorstPlotContestPlots/unnamed-chunk-2-1.png)<!-- -->
 
 #### Reasons for the plot being bad
 
