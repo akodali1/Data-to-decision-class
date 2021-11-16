@@ -22,7 +22,7 @@
 
 
 
-* ### [Data Entry Analysis](https://www.unomaha.edu/)
+* ### [Worst Plot Contest](https://github.com/akodali1/Data-to-decision-class/blob/main/WorstPlotsContest.md)
 
 <br>
 
