@@ -37,12 +37,12 @@ cloud(Freq~Var1+Var2, worst, panel.3d.cloud=panel.3dbars, col.facet=rainbow(2),
 
 #### Reasons for the plot being bad
 
--   The data in the substance use column is obscured by the massive bars
-    in the Mental health column which makes it difficult to view the
-    plots on Substance use column.
--   The values on the z-axis are misguiding.
+-   The data in the substance use row is obscured by the massive bars
+    in the Mental health row which makes it difficult to view the
+    plots on Substance use row.
+-   It is difficult to identify where the zero starts and also to identify the numerical values of each bar.
 -   The colors are deceiving since we can mistakenly believe that the
-    bars that are green are identical and vice versa.
+    bars that are blue are identical and vice versa.
 -   Overlapping of facility names in x-axis.
 -   There is no proper name formatting for z-axis heading and title
     name.
