@@ -4,7 +4,7 @@ Worst Plot Contest
 
 </br>
 
-### 3D Plot of Total Count of Patients vs Program Name vs Facility
+### 1) 3D Plot of Total Count of Patients vs Program Name vs Facility
 
 ``` r
 library(dplyr)
@@ -49,7 +49,7 @@ cloud(Freq~Var1+Var2, worst, panel.3d.cloud=panel.3dbars, col.facet=rainbow(2),
 
 </br>
 
-### Donut Chart of visits per age group
+### 2) Donut Chart of visits per age group
 
 ``` r
 worst1 <- as.data.frame(table(HFS_Data$agegroup))
