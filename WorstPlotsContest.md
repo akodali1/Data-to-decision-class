@@ -33,7 +33,7 @@ cloud(Freq~Var1+Var2, worst, panel.3d.cloud=panel.3dbars, col.facet=rainbow(2),
       par.settings = list(axis.line = list(col = "transparent")))
 ```
 
-![](WorstPlotsContest_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+![](https://github.com/akodali1/Data-to-decision-class/blob/main/WorstPlotContestPlots/unnamed-chunk-1-1.png)<!-- -->
 
 #### Reasons for the plot being bad
 
