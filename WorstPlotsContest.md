@@ -1,7 +1,6 @@
-Untitled
+Worst Plot Contest
 ================
 
-# Worst Plot Contest
 
 </br>
 
