@@ -81,6 +81,7 @@ donut
 
 -   In a pie chart, all of the data must add up to 100 percent, but it
     only does 86 percent in this case.
+-   It is difficult to read the angles and measure varaibles which might lead to missing some important information.
 -   Matching the colors in the labels to slices is a difficult task.
 -   The color of one segment is quite close to the color of the other
     segments, making it difficult to distinguish between them.
