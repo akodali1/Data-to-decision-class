@@ -6,6 +6,7 @@ import dash
 from jupyter_dash import JupyterDash  # pip install dash
 import dash_core_components as dcc
 import dash_html_components as html
+import plotly.express as px
 import pandas as pd
 import plotly.graph_objs as go
 from dash.dependencies import Input, Output
@@ -29,7 +30,7 @@ app.layout = html.Div([
                 
             )
         ],
-        style={'width': '48%', 'display': 'inline-block'})#Different styles of the layout
+        style={'width': '100%', 'display': 'inline-block'})#Different styles of the layout
 
 #Calling the app which has one input and output
 @app.callback(
@@ -38,9 +39,10 @@ app.layout = html.Div([
 
 #Defining a fuction for getting the lineplot for population of different nationalities over the years
 def update_figure(fm_nationality):
-    #dff=df[(df['fm_nationality']==fm_nationality)]
-    fig = px.line(df, x='year', y='population_by_year', color='fm_nationality', height=600,markers=True)
+    dff=df[df['fm_nationality'].isin(fm_nationality)]
+    fig = px.line(dff, x='year', y='population_by_year', color='fm_nationality', height=600,markers=True)
     fig.update_layout(yaxis={'title':'Total Population'})
+    #fig.update_layout(showlegend=False)
     return fig
     
 
